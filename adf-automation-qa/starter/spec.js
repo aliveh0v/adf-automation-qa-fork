@@ -43,7 +43,7 @@ describe('Go to Settings url and change provider', function(){
     browser.ignoreSynchronization=false; //ignore angular js specific
     it('Access to ../files', function(){
        
-        var gitHubId = 'asa';
+        var gitHubId = 'test00001';
         browser.get('http://qaexercise.envalfresco.com/files');
         //create folder
         element(by.css('#document-list-container > adf-upload-drag-area > div > adf-toolbar > mat-toolbar > div > button:nth-child(2)')).click();
