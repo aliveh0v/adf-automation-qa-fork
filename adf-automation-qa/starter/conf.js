@@ -1,5 +1,5 @@
 // conf.js
-
+/*
 require("babel-register")({
   presets: [ 'es2015' ]
 });
@@ -46,3 +46,12 @@ exports.config = {
       defaultTimeoutInterval: 50000
   }
 };
+*/
+exports.config={
+directConnect: true,
+capabilities: {
+'browserName': 'chrome'},
+framework:'jasmine2',
+specs:['spec.js']};
+
+
