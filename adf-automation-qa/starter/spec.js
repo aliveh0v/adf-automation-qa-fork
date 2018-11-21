@@ -1,8 +1,5 @@
 // spec.js
 
-
-});
-
 describe('Go to Settings url and change provider', function(){
     browser.ignoreSynchronization=false; //ignore angular js specific
     it('Access to URL', function(){        
